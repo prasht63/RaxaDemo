@@ -28,7 +28,7 @@
                     });
 
                 });
-				//callback handler for form submit
+				
 
  
         </script>
@@ -62,7 +62,7 @@
  
   </div>
   <font size=3 color="white">
-  <?php
+  <?php //was not able to make ajax submit work so had to put this code here. 
  
  mysql_connect("localhost","raxa","ok");
  mysql_select_db("raxa");
